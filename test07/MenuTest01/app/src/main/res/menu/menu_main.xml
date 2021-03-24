@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Item01"
+        android:title="Item01" />
+    <item android:title="Sub Menu" >
+        <menu >
+            <item
+                android:id="@+id/subitem01"
+                android:onClick="onMenuItemClick"
+                android:title="Sub Item 01" />
+            <item
+                android:id="@+id/subitem02"
+                android:title="Sub Item 02" />
+        </menu>
+    </item>
+</menu>

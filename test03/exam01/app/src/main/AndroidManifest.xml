@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--앱에 대한 자기소개같은 친구-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ddwucom.mobile.test03">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <!--'.'은 위의 ddwucom.mobile.test03을 요약한 것-->
+            <!--앱에서 실행해야할 가장 첫번째 부분이라고 지정하는 태그-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
